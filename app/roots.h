@@ -1,6 +1,6 @@
 #ifndef ROOTS_H
 #define ROOTS_H
 
-double* roots(double a, double b, double c);
+int roots(double* arr, double a, double b, double c);
 
 #endif 

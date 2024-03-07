@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 6.0.2, 2024-03-07T09:19:58. -->
+<!-- Written by QtCreator 6.0.2, 2024-03-07T13:07:42. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -155,8 +155,9 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/georgii/Projects/Labs/OP/qtest/app/app.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/georgii/Projects/Labs/OP/qtest/app/app.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">app2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:/home/georgii/Projects/Labs/OP/task2_orpo/app/app.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">/home/georgii/Projects/Labs/OP/task2_orpo/app/app.pro</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
