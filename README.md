@@ -8,4 +8,4 @@
 # ATTENTION!!!
 Описание тестов лежит в ./tests/descriptions.md
 70% sonarcloud из-за main все модули по 100
-[![image](https://github.com/GeorgiiZaharov/task2_orpo/assets/112760781/250ab8d3-fbb0-437d-8b8a-4b3df98d5b98)]
+![image](https://github.com/GeorgiiZaharov/task2_orpo/assets/112760781/250ab8d3-fbb0-437d-8b8a-4b3df98d5b98)
