@@ -1,7 +1,4 @@
-#include "urav_test.h"
-#include "tst_test1.h"
-#include "fibonachi_test.h"
-#include "tst_stdout.h"
+#include "tst_roots.h"
 
 #include <gtest/gtest.h>
 

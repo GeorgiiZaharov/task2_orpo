@@ -12,39 +12,32 @@ extern "C" {
 #include "roots.h"
 }
 
-TEST(group1, num0) {
-    double* rez = roots(1, -5, 4);
-    double need[2] = {4.000000, 1.000000};
+double arr[2];
+int result;
 
-    EXPECT_TRUE(rez[0] == need[0]);
-    EXPECT_TRUE(rez[1] == need[1]);
+TEST(roots1, right_answer) {
+    result = roots(arr, 1, -5, 6);
+    EXPECT_TRUE(result == 1);
+    EXPECT_TRUE(arr[0] == 3);
+    EXPECT_TRUE(arr[1] == 2);
 }
-TEST(group1, num1) {
-    double* rez = roots(1, -3, 2);
-    double need[2] = {2.000000, 1.000000};
-
-    EXPECT_TRUE(rez[0] == need[0]);
-    EXPECT_TRUE(rez[1] == need[1]);
-}
-TEST(group1, num2) {
-    double* rez = roots(1, -13, 12);
-    double need[2] = {12.000000, 1.000000};
-
-    EXPECT_TRUE(rez[0] == need[0]);
-    EXPECT_TRUE(rez[1] == need[1]);
+TEST(roots1, float_input_output) {
+    result = roots(arr, 1, -4, 3.75);
+    EXPECT_TRUE(result == 1);
+    EXPECT_TRUE(arr[0] == 2.5);
+    EXPECT_TRUE(arr[1] == 1.5);
 }
 
-TEST(group1, num3) {
-    double* rez = roots(2, 4, 2);
-    double need[1] = {-1};
-
-    EXPECT_TRUE(rez[0] == need[0]);
+TEST(roots1, one_root) {
+    result = roots(arr, 1, -6, 9);
+    EXPECT_TRUE(result == 1);
+    EXPECT_TRUE(arr[0] == 3);
+    EXPECT_TRUE(arr[1] == 3);
 }
 
-TEST(group1, num4) {
-    double* rez = roots(1, 2, 3);
-
-    EXPECT_TRUE(rez[0] == 1000000);
+TEST(roots1, no_root) {
+    result = roots(arr, 1, 2, 3);
+    EXPECT_TRUE(result == 0);
 }
 
 #endif // URAVNENIE_H

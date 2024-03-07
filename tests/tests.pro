@@ -16,18 +16,11 @@ LIBS += -lgcov
 
 DEFINES += INPUTDIR=\\\"$$PWD/input/\\\"
 
-HEADERS +=     tst_test1.h \
-    ../app/myfunc.h \
-    ../app/roots.h \
-    fibonachi_test.h \
-    urav_test.h \
-    tst_stdout.h
+HEADERS += tst_roots.h \
+        ../app/roots.h
 
-SOURCES +=     main.cpp \
-    ../app/myfunc.c \
-    ../app/roots.c
+SOURCES += main.cpp \
+            ../app/roots.c
 
 INCLUDEPATH += ../app
 
-DISTFILES += \
-    input/TestSTDOut_output.txt
