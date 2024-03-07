@@ -34,4 +34,17 @@ TEST(group1, num2) {
     EXPECT_TRUE(rez[1] == need[1]);
 }
 
+TEST(group1, num3) {
+    double* rez = roots(2, 4, 2);
+    double need[1] = {-1};
+
+    EXPECT_TRUE(rez[0] == need[0]);
+}
+
+TEST(group1, num4) {
+    double* rez = roots(1, 2, 3);
+
+    EXPECT_TRUE(rez[0] == 1000000);
+}
+
 #endif // URAVNENIE_H
